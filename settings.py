@@ -15,7 +15,7 @@ KEY = 'test_attachment_key'
 # Auth token timestamp must be within this many seconds of server time
 # in order to be considered valid. This prevents replay attacks.
 # Set to None to disable time validation.
-TIME_TOLERANCE = 150
+TIME_TOLERANCE = 600
 
 # Set this to True to require authentication for downloads in addition
 # to uploads and deletes.  Static file access, if enabled, is not
